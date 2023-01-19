@@ -1,0 +1,171 @@
+.container{
+    background-color: blueviolet;
+    width: 100%;
+    height: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.account{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    padding-left: 100px;
+    background-color: rgb(255, 89, 0);
+}
+
+.mail{
+    color: aliceblue;
+}
+
+.lorem{
+    color: aliceblue;
+    font-size: 13px;
+}
+
+.phone{
+    padding-left: 50px;
+}
+
+.btn-acc{
+    position: absolute;
+    height: 100%;
+    width: 160px;
+    font-size: 16px;
+    right: 100px;
+    border: 1px;
+    cursor: pointer;
+    color: aliceblue;
+    background: rgb(41, 39, 39);
+}
+
+.header_nav{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+}
+
+.logo{
+    position: absolute;
+    left: 100px;
+    width: 100px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.charity{
+    color: rgb(255, 89, 0);
+}
+
+.links{
+    position: absolute;
+    right: 0px;
+    width: 50%;
+    margin: 0 -20px;
+}
+
+a{
+    flex: 1 1 auto;
+    padding-bottom: 30px;
+    margin: 0 20px;
+    text-decoration: none;
+    color: rgb(41, 39, 39);
+}
+
+.menu_link {
+    position: relative;
+}
+
+.menu_link:hover {
+    color: rgb(255, 89, 0);
+}
+
+.menu_link:hover::before {
+    transform: scaleX(1);
+    transition: transform 0.25s;
+}
+
+.menu_link::before {
+    content: '';
+    width: 100%;
+    height: 3px;
+    background-color: rgb(255, 89, 0);
+    position: absolute;
+    left: 0; bottom: -5px;
+    transform: scaleX(0);
+    transition: transform 0.25s;
+}
+
+.content{
+    position: relative;
+    background: url(https://images.wallpaperscraft.ru/image/single/lampa_rozetka_ideya_elektrichestvo_120422_1920x1080.jpg);
+    width: 100%;
+    height: 700px;
+}
+
+h1{
+    position: absolute;
+    font-size: 100px;
+    top: 130px;
+    left: 100px;
+    color: aliceblue;
+}
+
+h3{
+    position: absolute;
+    font-size: 50px;
+    left: 100px;
+    top: 230px;
+    color: aliceblue;
+}
+
+.lorem{
+    position: absolute;
+    word-spacing: 5px;
+    font-size: 20px;
+    top: 310px;
+    left: 100px;
+}
+
+.btn-1{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    top: 450px;
+    left: 100px;
+    font-size: 16px;
+    border-radius: 50px;
+    color: aliceblue;
+    border: 0;
+    background: linear-gradient(45deg, #ff0000, #fdd300);
+    cursor: pointer;
+}
+
+
+
+.btn-2{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    top: 450px;
+    left: 260px;
+    font-size: 16px;
+    border-radius: 50px;
+    color: aliceblue;
+    border-color: rgb(255, 89, 0);
+    background-image: none;
+    background: transparent;
+    float: left;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.btn-2:hover {
+    background: linear-gradient(45deg, #ff0000, #fdd300);
+    border: 0;
+}

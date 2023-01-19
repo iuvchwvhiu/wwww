@@ -1,0 +1,159 @@
+.main_container{
+  width: 100%;
+  height: 32em;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: red;  
+}
+
+.block{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 32em;
+    background-color: #fff;
+}
+
+.music{
+    position: absolute;
+    width: 25%;
+    height: 300px;
+    top: 100px;
+    border-radius: 30px;
+    background-color: rgb(235, 235, 235);
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.10s;
+}
+
+.music:hover {
+    background-color: rgb(255, 94, 0);
+    color: aliceblue;
+}
+
+.h4{
+    position: relative;
+    font-size: 29px;
+    text-align: center;
+    top: 110px;
+}
+
+.p1{
+    position: absolute;
+    font-size: 17px;
+    top: 170px;
+    left: 12.5%;;
+    text-align: center;
+}
+
+.one{
+    left: 110px;
+    background-color: rgb(255, 94, 0);
+}
+
+.two{
+    left: 510px;
+    color: black;
+}
+
+.three{
+    right: 110px;
+    color: black;
+}
+
+/* ==========================Wellcome========================= */
+
+.Wellcome{
+    display: flex;
+    width: 100%;
+    height: 88vh;
+    background: url(https://images.wallpaperscraft.ru/image/single/les_tuman_derevia_132037_1024x600.jpg);
+}
+
+.blackout{
+    width: 100%;
+    height: 88vh;
+    background-color: rgba(0, 0, 0, 0.774);
+}
+
+.text{
+    flex: 0.5;
+    position: relative;
+}
+
+.h2{
+    position: absolute;
+    font-size: 40px;
+    top: 110px;
+    left: 120px;
+    color: #fff;
+}
+
+.p-mauris{
+    position: absolute;
+    color: rgb(167, 167, 167);
+    word-spacing: 3px;
+    line-height: 30px;
+    top: 240px;
+    left: 120px;
+}
+
+.read {
+    position: absolute;
+    left: 120px;
+}
+
+.photo{
+    flex: 0.5;
+    position: relative;
+}
+
+.img{
+    position: absolute;
+    width: 490px;
+    height: 360px;
+    right: 120px;
+    top: 100px;
+    background: url(https://images.wallpaperscraft.ru/image/single/nadpis_chernyj_chb_125483_300x255.jpg)  ;
+    background-size: 100%;
+}
+
+/* ==================childrens=================== */
+
+.childrens{
+    display: flex;
+    width: 100%;
+    height: 1000px;
+    margin: 120px 120px 120px 120px;
+    background-color: white;
+}
+
+.events{
+    flex: 0.5;
+    flex-direction: column;
+}
+
+.bring{
+    width: 70%;
+    height: 200px;
+    margin-top: 60px;
+    background-color: rgb(255, 4, 4);
+}
+
+.event-h2{
+    font-size: 37px;
+}
+
+.cause{
+    flex: 0.5;
+}
+
+.kids{
+    width: 60%;
+    height: 700px;
+    margin-top: 80px;
+    background-color: blue;
+}
+
+.caus-h2{
+    font-size: 37px;
+}
